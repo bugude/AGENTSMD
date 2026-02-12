@@ -1,105 +1,105 @@
 # AGENTS.md Collection for OpenAI Codex
 
-このリポジトリは、OpenAI Codex用のAGENTS.mdファイルのコレクションです。各技術スタックに特化したガイドラインを提供し、AIエージェントがプロジェクトの規約や最良慣行に従って動作するように支援します。
+This repository is a collection of AGENTS.md files for the OpenAI Codex, providing stack-specific guidelines to help ensure AI agents behave according to project conventions and best practices.
 
-## AGENTS.mdとは
+## What is AGENTS.md?
 
-AGENTS.mdは、OpenAI Codexのようなソフトウェアエンジニアリング AIエージェントがプロジェクト内で効果的に機能するためのガイドラインファイルです。これは人間開発者向けのREADME.mdに相当するものですが、AIエージェント向けに特化されています。
+AGENTS.md is a software engineering guideline file, similar to the OpenAI Codex, for AI agents to function effectively within a project. It's the human developer equivalent of README.md, but specialized for AI agents.
 
-## 利用可能なAGENTS.mdファイル
+## Available AGENTS.md files
 
-### 汎用
-- [`AGENTS.md`](./AGENTS.md) - 汎用的なプロジェクトテンプレート
+### General purpose
+- [`AGENTS.md`](./AGENTS.md) - General-purpose project templates
 
-### フロントエンド
+### front end
 - [`nextjs-AGENTS.md`](./nextjs-AGENTS.md) - Next.js + TypeScript + Tailwind CSS
 - [`react-AGENTS.md`](./react-AGENTS.md) - React + TypeScript + Vite
 - [`vue-AGENTS.md`](./vue-AGENTS.md) - Vue.js 3 + Composition API + TypeScript
 
-### バックエンド
+### Backend
 - [`python-AGENTS.md`](./python-AGENTS.md) - Python + Flask + SQLAlchemy
 - [`nodejs-AGENTS.md`](./nodejs-AGENTS.md) - Node.js + Express + TypeScript + Prisma
 
-### モバイル
+### Mobile
 - [`flutter-AGENTS.md`](./flutter-AGENTS.md) - Flutter + Dart + Riverpod
 
-## 使用方法
+## How to use
 
-### 1. ファイルをプロジェクトルートにコピー
+### 1. Copy the file to the project root
 
-適切なAGENTS.mdファイルを選択し、プロジェクトのルートディレクトリに `AGENTS.md` としてコピーします。
+Select the appropriate AGENTS.md file and copy it to the root directory of your project as `AGENTS.md`.
 
 ```bash
-# 例: Next.jsプロジェクトの場合
+# Example: Next.js project
 cp agents-md/nextjs-AGENTS.md /path/to/your/project/AGENTS.md
 ```
 
-### 2. プロジェクトに合わせてカスタマイズ
+### 2. Customize it for your project
 
-AGENTS.mdファイルを開き、プロジェクトの特定の要件に合わせて内容を調整します：
+Open the AGENTS.md file and adjust its contents to fit your project's specific requirements:
 
-- プロジェクト固有のディレクトリ構造
-- 使用する特定のライブラリやツール
-- チーム固有のコーディング規約
-- デプロイメント手順
+- Project-specific directory structure
+- Specific libraries and tools used
+- Team-specific coding standards
+- Deployment instructions
 
-### 3. OpenAI Codexで使用
+### 3. Use in OpenAI Codex
 
-OpenAI Codexがタスクを実行する際、AGENTS.mdファイルはプロジェクトのコンテキストを理解し、適切なガイドラインに従うための指針として使用されます。
+When OpenAI Codex executes a task, it uses the AGENTS.md file as a guide to understand the context of the project and follow the appropriate guidelines.
 
-## AGENTS.mdの主要セクション
+## Main Sections of AGENTS.md
 
-各AGENTS.mdファイルは以下の構造に従っています：
+Each AGENTS.md file follows the following structure:
 
-1. **コードベースのナビゲーションとアーキテクチャ** - プロジェクト構造の理解
-2. **コードスタイルとフォーマット** - スタイルガイドとフォーマットルール
-3. **テストプロトコル** - テスト戦略と実行方法
-4. **ビルドプロセスと環境設定** - 開発・本番環境の設定
-5. **コミットメッセージ規約** - Git コミットメッセージの形式
-6. **プルリクエスト指示** - PR作成時のガイドライン
-7. **プロジェクト全般のガイドライン** - ベストプラクティスと推奨事項
-8. **レビューチェックリスト** - Codex生成コードのレビューポイント
+1. **Codebase Navigation and Architecture** - Understanding the project structure
+2. **Code Style and Format** - Style guide and formatting rules
+3. **Test Protocol** - Testing strategy and execution method
+4. **Build Process and Environment Configuration** - Development and production environment configuration
+5. **Commit Message Conventions** - Git commit message format
+6. **Pull Request Instructions** - Guidelines for creating PRs
+7. **General Project Guidelines** - Best practices and recommendations
+8. **Review Checklist** - Review points for Codex-generated code
 
-## カスタマイズのヒント
+## Customization Tips
 
-### スコープの活用
+### Leveraging Scope
 
-大規模プロジェクトでは、サブディレクトリに特化したAGENTS.mdファイルを配置することができます：
+For large projects, you can place specialized AGENTS.md files in subdirectories:
 
 ```
 project-root/
-├── AGENTS.md              # 全体用
+├── AGENTS.md              # For all
 ├── frontend/
-│   └── AGENTS.md          # フロントエンド特化
+│   └── AGENTS.md          # Front-end specialization
 └── backend/
-    └── AGENTS.md          # バックエンド特化
+    └── AGENTS.md          # Backend specialization
 ```
 
-### 段階的な導入
+### Gradual Implementation
 
-はじめは基本的なAGENTS.mdから始めて、チームの経験に基づいて徐々に詳細化していくことを推奨します。
+We recommend starting with a basic AGENTS.md and gradually expanding it based on your team's experience.
 
-### 定期的な更新
+### Regular Updates
 
-プロジェクトの進化に合わせてAGENTS.mdも更新し、Codexが最新の規約に従うようにします。
+As your project evolves, update your AGENTS.md to ensure your Codex adheres to the latest standards.
 
-## ベストプラクティス
+### Best Practices
 
-1. **明確性を重視** - 曖昧な表現を避け、具体的で実行可能な指示を記述
-2. **簡潔性** - 冗長な説明を避け、要点を簡潔に
-3. **実行可能性** - 実際に実行可能なコマンドや手順を提供
-4. **一貫性** - プロジェクト内での用語や形式の一貫性を保持
-5. **更新性** - 定期的にコンテンツを見直し、プロジェクトの変化に対応
+1. **Clarity** - Avoid ambiguity and provide specific, actionable instructions.
+2. **Concise** - Avoid verbose descriptions and get straight to the point.
+3. **Actionability** - Provide commands and steps that can actually be executed.
+4. **Consistency** - Maintain consistency in terminology and formatting within your project.
+5. **Updating** - Regularly review the content and adapt it to changes in the project.
 
-## 貢献
+## Contributions
 
-新しい技術スタックのAGENTS.mdファイルや既存ファイルの改善にご協力いただける場合は、プルリクエストをお送りください。
+If you'd like to contribute an AGENTS.md file for a new tech stack or improve an existing one, please submit a pull request.
 
-## ライセンス
+### License
 
-このリポジトリのコンテンツは [MIT License](./LICENCE) の下で公開されています。
+The content of this repository is released under the [MIT License](./LICENCE).
 
-## 参考文献
+## References
 
 - [OpenAI Codex Documentation](https://openai.com/index/introducing-codex/)
 - [Best Practices for AI Agent Guidelines](https://docs.anthropic.com/claude/docs/how-claude-works)
