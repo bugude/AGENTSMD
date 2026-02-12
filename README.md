@@ -9,19 +9,19 @@ AGENTS.md is a software engineering guideline file, similar to the OpenAI Codex,
 ## Available AGENTS.md files
 
 ### General purpose
-- [`AGENTS.md`](./AGENTS.md) - General-purpose project templates
+- [`AGENTS.md`](./agents-md/AGENTS.md) - General-purpose project templates
 
 ### front end
-- [`nextjs-AGENTS.md`](./nextjs-AGENTS.md) - Next.js + TypeScript + Tailwind CSS
-- [`react-AGENTS.md`](./react-AGENTS.md) - React + TypeScript + Vite
-- [`vue-AGENTS.md`](./vue-AGENTS.md) - Vue.js 3 + Composition API + TypeScript
+- [`nextjs-AGENTS.md`](./agents-md/nextjs-AGENTS.md) - Next.js + TypeScript + Tailwind CSS
+- [`react-AGENTS.md`](./agents-md/react-AGENTS.md) - React + TypeScript + Vite
+- [`vue-AGENTS.md`](./agents-md/vue-AGENTS.md) - Vue.js 3 + Composition API + TypeScript
 
 ### Backend
-- [`python-AGENTS.md`](./python-AGENTS.md) - Python + Flask + SQLAlchemy
-- [`nodejs-AGENTS.md`](./nodejs-AGENTS.md) - Node.js + Express + TypeScript + Prisma
+- [`python-AGENTS.md`](./agents-md/python-AGENTS.md) - Python + Flask + SQLAlchemy
+- [`nodejs-AGENTS.md`](./agents-md/nodejs-AGENTS.md) - Node.js + Express + TypeScript + Prisma
 
 ### Mobile
-- [`flutter-AGENTS.md`](./flutter-AGENTS.md) - Flutter + Dart + Riverpod
+- [`flutter-AGENTS.md`](./agents-md/flutter-AGENTS.md) - Flutter + Dart + Riverpod
 
 ## How to use
 
