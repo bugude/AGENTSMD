@@ -102,5 +102,5 @@ The content of this repository is released under the [MIT License](./LICENCE).
 ## References
 
 - [OpenAI Codex Documentation](https://openai.com/index/introducing-codex/)
-- [Best Practices for AI Agent Guidelines](https://docs.anthropic.com/claude/docs/how-claude-works)
+- [Best Practices for AI Agent Guidelines](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
 - [Effective Software Development with AI](https://www.temporal.io/blog/improving-java-sdk-codex-openai)
